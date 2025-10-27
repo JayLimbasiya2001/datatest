@@ -1,0 +1,1426 @@
+{
+  "company": "netapp",
+  "domain": "https://www.netapp.com/",
+  "scrapedAt": "2025-10-26T12:20:01.310Z",
+  "timing": {
+    "totalProcessingTime": 0,
+    "linkedinScrapingTime": 141392,
+    "emailFindingTime": 647430,
+    "resultsSavingTime": 0,
+    "workflowStartTime": "2025-10-26T12:20:01.310Z"
+  },
+  "linkedinNames": {
+    "total": 100,
+    "names": [
+      "Kaushik Mishra",
+      "Himanshu Malviya",
+      "Simran Gangwani",
+      "Rakshith Ramesh",
+      "Anusri Sakaram",
+      "Ruthwik M.",
+      "Vinay Shetty",
+      "Sunidhi Singh",
+      "Harsha Kumar",
+      "Isha Panchbhaiya",
+      "Gokul Sangilidurai",
+      "NetApp SolidFire",
+      "NetApp Switzerland",
+      "NetApp Women in Technology",
+      "Infosys Springboard",
+      "Jayesh Bhakta",
+      "Abhishek S.",
+      "Saurav works here",
+      "Saravanan BR",
+      "Kirti Gupta",
+      "Ayush Thakur",
+      "Anirudh Acharya",
+      "Afshan Sultana",
+      "Mayur Sheliya",
+      "shreyas M L",
+      "Sheelapriya Rajendran",
+      "Adhar Jain",
+      "Kumar Soundararaj",
+      "Sana Ullah",
+      "Sonam Yadav",
+      "Sakshi .",
+      "Karthik Bharadwaj",
+      "Anupam Agrawal",
+      "Simrin Joshi",
+      "Garima Saxena",
+      "Vaibhavi Patel",
+      "Prerna Verma",
+      "Ramitha Rajendran",
+      "Abhishek Sarthi",
+      "Sonia Agrawal",
+      "Omkar Rayapeddi",
+      "Pankaj Kumar",
+      "Sesanshu Sahoo",
+      "Ankita Paul",
+      "Chandrakala H",
+      "Mayur Mudgal",
+      "Shoeb Mohammad",
+      "Somyaneel Sinha",
+      "Ann Naresh",
+      "T U Kiran Chandra",
+      "Jitendra Kumar Jain",
+      "Raghu B",
+      "Karthik Kadakol",
+      "Gunjan Samaiya",
+      "Tiyasha Koley",
+      "Chaithra Valke",
+      "Rahul Jarali",
+      "Arushi Sharma",
+      "Vipin Malhotra",
+      "Prasanth Vuddagiri",
+      "Abhishek Singh",
+      "Aribam Umananda Sharma",
+      "Siva Moorthy S",
+      "Jeevan Nag",
+      "Anamika Borah",
+      "Devki Nandan Gupta",
+      "Akash Kumaresan",
+      "Piyush Jain",
+      "Ruchika Lahoti",
+      "Srinath Chamarthi",
+      "Kavya Goel",
+      "Dhanasekaran J",
+      "Raghavendra Achyuth K",
+      "sudha annavarapu",
+      "Vinayaka Hegde",
+      "Vidya Rao",
+      "Shubham Phadnis",
+      "Bhumika Joshi",
+      "Gabrial Thomas",
+      "Kaushik KB",
+      "Anuj Kumar Singh",
+      "Arshita .",
+      "Hemavathy H V",
+      "Siddhant Sharma",
+      "KARTHIK C R",
+      "Bharat Tiwari",
+      "Gaurav Ojha",
+      "Amit Tiwari",
+      "Padmavathi Chintala",
+      "Abhijeet Chauhan",
+      "Niladri Pramanik",
+      "Vikash Kumar",
+      "Ramesh Nasina",
+      "Ravi S",
+      "NIKITA GODBOLE",
+      "Suresh Shankar",
+      "Shashank T.S.",
+      "Pooja Koganole",
+      "Ishwar Pandey",
+      "Gayatri Malhotra"
+    ]
+  },
+  "emailResults": {
+    "totalProcessed": 100,
+    "emailsFound": 3,
+    "successRate": "3.0",
+    "details": [
+      {
+        "name": "Kaushik Mishra",
+        "email": "kmishra@netapp.com",
+        "domain": "https://www.netapp.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T12:09:27.311Z"
+      },
+      {
+        "name": "Himanshu Malviya",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:09:27.312Z"
+      },
+      {
+        "name": "Simran Gangwani",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:09:27.312Z"
+      },
+      {
+        "name": "Rakshith Ramesh",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:09:27.312Z"
+      },
+      {
+        "name": "Anusri Sakaram",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:09:27.312Z"
+      },
+      {
+        "name": "Ruthwik M.",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:02.018Z"
+      },
+      {
+        "name": "Vinay Shetty",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:02.019Z"
+      },
+      {
+        "name": "Sunidhi Singh",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:02.019Z"
+      },
+      {
+        "name": "Harsha Kumar",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:02.020Z"
+      },
+      {
+        "name": "Isha Panchbhaiya",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:02.020Z"
+      },
+      {
+        "name": "Gokul Sangilidurai",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:31.068Z"
+      },
+      {
+        "name": "NetApp SolidFire",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:31.068Z"
+      },
+      {
+        "name": "NetApp Switzerland",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:31.069Z"
+      },
+      {
+        "name": "NetApp Women in Technology",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:31.069Z"
+      },
+      {
+        "name": "Infosys Springboard",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:10:31.069Z"
+      },
+      {
+        "name": "Jayesh Bhakta",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:02.614Z"
+      },
+      {
+        "name": "Abhishek S.",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:02.614Z"
+      },
+      {
+        "name": "Saurav works here",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:02.614Z"
+      },
+      {
+        "name": "Saravanan BR",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:02.614Z"
+      },
+      {
+        "name": "Kirti Gupta",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:02.615Z"
+      },
+      {
+        "name": "Ayush Thakur",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:43.769Z"
+      },
+      {
+        "name": "Anirudh Acharya",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:43.770Z"
+      },
+      {
+        "name": "Afshan Sultana",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:43.770Z"
+      },
+      {
+        "name": "Mayur Sheliya",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:43.770Z"
+      },
+      {
+        "name": "shreyas M L",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:11:43.770Z"
+      },
+      {
+        "name": "Sheelapriya Rajendran",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:12.722Z"
+      },
+      {
+        "name": "Adhar Jain",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:12.722Z"
+      },
+      {
+        "name": "Kumar Soundararaj",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:12.722Z"
+      },
+      {
+        "name": "Sana Ullah",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:12.722Z"
+      },
+      {
+        "name": "Sonam Yadav",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:12.723Z"
+      },
+      {
+        "name": "Sakshi .",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:42.572Z"
+      },
+      {
+        "name": "Karthik Bharadwaj",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:42.573Z"
+      },
+      {
+        "name": "Anupam Agrawal",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:42.573Z"
+      },
+      {
+        "name": "Simrin Joshi",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:42.573Z"
+      },
+      {
+        "name": "Garima Saxena",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:12:42.573Z"
+      },
+      {
+        "name": "Vaibhavi Patel",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:13:19.147Z"
+      },
+      {
+        "name": "Prerna Verma",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:13:19.147Z"
+      },
+      {
+        "name": "Ramitha Rajendran",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:13:19.147Z"
+      },
+      {
+        "name": "Abhishek Sarthi",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:13:19.147Z"
+      },
+      {
+        "name": "Sonia Agrawal",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:13:19.147Z"
+      },
+      {
+        "name": "Omkar Rayapeddi",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:09.291Z"
+      },
+      {
+        "name": "Pankaj Kumar",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:09.292Z"
+      },
+      {
+        "name": "Sesanshu Sahoo",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:09.292Z"
+      },
+      {
+        "name": "Ankita Paul",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:09.292Z"
+      },
+      {
+        "name": "Chandrakala H",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:09.292Z"
+      },
+      {
+        "name": "Mayur Mudgal",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:40.563Z"
+      },
+      {
+        "name": "Shoeb Mohammad",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:40.563Z"
+      },
+      {
+        "name": "Somyaneel Sinha",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:40.563Z"
+      },
+      {
+        "name": "Ann Naresh",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:40.563Z"
+      },
+      {
+        "name": "T U Kiran Chandra",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:14:40.564Z"
+      },
+      {
+        "name": "Jitendra Kumar Jain",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:11.078Z"
+      },
+      {
+        "name": "Raghu B",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:11.078Z"
+      },
+      {
+        "name": "Karthik Kadakol",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:11.078Z"
+      },
+      {
+        "name": "Gunjan Samaiya",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:11.078Z"
+      },
+      {
+        "name": "Tiyasha Koley",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:11.078Z"
+      },
+      {
+        "name": "Chaithra Valke",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:40.557Z"
+      },
+      {
+        "name": "Rahul Jarali",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:40.557Z"
+      },
+      {
+        "name": "Arushi Sharma",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:40.557Z"
+      },
+      {
+        "name": "Vipin Malhotra",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:40.557Z"
+      },
+      {
+        "name": "Prasanth Vuddagiri",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:15:40.557Z"
+      },
+      {
+        "name": "Abhishek Singh",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:10.197Z"
+      },
+      {
+        "name": "Aribam Umananda Sharma",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:10.198Z"
+      },
+      {
+        "name": "Siva Moorthy S",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:10.198Z"
+      },
+      {
+        "name": "Jeevan Nag",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:10.198Z"
+      },
+      {
+        "name": "Anamika Borah",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:10.198Z"
+      },
+      {
+        "name": "Devki Nandan Gupta",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:41.175Z"
+      },
+      {
+        "name": "Akash Kumaresan",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:41.175Z"
+      },
+      {
+        "name": "Piyush Jain",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:41.175Z"
+      },
+      {
+        "name": "Ruchika Lahoti",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:41.175Z"
+      },
+      {
+        "name": "Srinath Chamarthi",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:16:41.175Z"
+      },
+      {
+        "name": "Kavya Goel",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:17.321Z"
+      },
+      {
+        "name": "Dhanasekaran J",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:17.322Z"
+      },
+      {
+        "name": "Raghavendra Achyuth K",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:17.322Z"
+      },
+      {
+        "name": "sudha annavarapu",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:17.322Z"
+      },
+      {
+        "name": "Vinayaka Hegde",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:17.322Z"
+      },
+      {
+        "name": "Vidya Rao",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:46.164Z"
+      },
+      {
+        "name": "Shubham Phadnis",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:46.164Z"
+      },
+      {
+        "name": "Bhumika Joshi",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:46.164Z"
+      },
+      {
+        "name": "Gabrial Thomas",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:46.164Z"
+      },
+      {
+        "name": "Kaushik KB",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:17:46.164Z"
+      },
+      {
+        "name": "Anuj Kumar Singh",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:23.448Z"
+      },
+      {
+        "name": "Arshita .",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:23.449Z"
+      },
+      {
+        "name": "Hemavathy H V",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:23.449Z"
+      },
+      {
+        "name": "Siddhant Sharma",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:23.449Z"
+      },
+      {
+        "name": "KARTHIK C R",
+        "email": "kcr@netapp.com",
+        "domain": "https://www.netapp.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T12:18:23.449Z"
+      },
+      {
+        "name": "Bharat Tiwari",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:49.397Z"
+      },
+      {
+        "name": "Gaurav Ojha",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:49.397Z"
+      },
+      {
+        "name": "Amit Tiwari",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:49.398Z"
+      },
+      {
+        "name": "Padmavathi Chintala",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:49.398Z"
+      },
+      {
+        "name": "Abhijeet Chauhan",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:18:49.398Z"
+      },
+      {
+        "name": "Niladri Pramanik",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:19:26.452Z"
+      },
+      {
+        "name": "Vikash Kumar",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:19:26.452Z"
+      },
+      {
+        "name": "Ramesh Nasina",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:19:26.452Z"
+      },
+      {
+        "name": "Ravi S",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:19:26.453Z"
+      },
+      {
+        "name": "NIKITA GODBOLE",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:19:26.453Z"
+      },
+      {
+        "name": "Suresh Shankar",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:20:01.307Z"
+      },
+      {
+        "name": "Shashank T.S.",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:20:01.307Z"
+      },
+      {
+        "name": "Pooja Koganole",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:20:01.307Z"
+      },
+      {
+        "name": "Ishwar Pandey",
+        "email": "ishwar@netapp.com",
+        "domain": "https://www.netapp.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T12:20:01.308Z"
+      },
+      {
+        "name": "Gayatri Malhotra",
+        "email": null,
+        "domain": "https://www.netapp.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:20:01.308Z"
+      }
+    ]
+  },
+  "combined": [
+    {
+      "name": "Kaushik Mishra",
+      "email": "kmishra@netapp.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Himanshu Malviya",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Simran Gangwani",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Rakshith Ramesh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Anusri Sakaram",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ruthwik M.",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vinay Shetty",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sunidhi Singh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Harsha Kumar",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Isha Panchbhaiya",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Gokul Sangilidurai",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "NetApp SolidFire",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "NetApp Switzerland",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "NetApp Women in Technology",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Infosys Springboard",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Jayesh Bhakta",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Abhishek S.",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Saurav works here",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Saravanan BR",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kirti Gupta",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ayush Thakur",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Anirudh Acharya",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Afshan Sultana",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Mayur Sheliya",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "shreyas M L",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sheelapriya Rajendran",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Adhar Jain",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kumar Soundararaj",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sana Ullah",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sonam Yadav",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sakshi .",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Karthik Bharadwaj",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Anupam Agrawal",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Simrin Joshi",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Garima Saxena",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vaibhavi Patel",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Prerna Verma",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ramitha Rajendran",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Abhishek Sarthi",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sonia Agrawal",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Omkar Rayapeddi",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Pankaj Kumar",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sesanshu Sahoo",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ankita Paul",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Chandrakala H",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Mayur Mudgal",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Shoeb Mohammad",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Somyaneel Sinha",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ann Naresh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "T U Kiran Chandra",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Jitendra Kumar Jain",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Raghu B",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Karthik Kadakol",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Gunjan Samaiya",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Tiyasha Koley",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Chaithra Valke",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Rahul Jarali",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Arushi Sharma",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vipin Malhotra",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Prasanth Vuddagiri",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Abhishek Singh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Aribam Umananda Sharma",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Siva Moorthy S",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Jeevan Nag",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Anamika Borah",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Devki Nandan Gupta",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Akash Kumaresan",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Piyush Jain",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ruchika Lahoti",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Srinath Chamarthi",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kavya Goel",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Dhanasekaran J",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Raghavendra Achyuth K",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "sudha annavarapu",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vinayaka Hegde",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vidya Rao",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Shubham Phadnis",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Bhumika Joshi",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Gabrial Thomas",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kaushik KB",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Anuj Kumar Singh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Arshita .",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Hemavathy H V",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Siddhant Sharma",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "KARTHIK C R",
+      "email": "kcr@netapp.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Bharat Tiwari",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Gaurav Ojha",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Amit Tiwari",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Padmavathi Chintala",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Abhijeet Chauhan",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Niladri Pramanik",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vikash Kumar",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ramesh Nasina",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ravi S",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "NIKITA GODBOLE",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Suresh Shankar",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Shashank T.S.",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Pooja Koganole",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ishwar Pandey",
+      "email": "ishwar@netapp.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Gayatri Malhotra",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    }
+  ]
+}

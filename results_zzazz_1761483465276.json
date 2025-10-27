@@ -1,0 +1,922 @@
+{
+  "company": "zzazz",
+  "domain": "https://zzazz.com/",
+  "scrapedAt": "2025-10-26T12:57:45.276Z",
+  "timing": {
+    "totalProcessingTime": 0,
+    "linkedinScrapingTime": 143361,
+    "emailFindingTime": 436309,
+    "resultsSavingTime": 0,
+    "workflowStartTime": "2025-10-26T12:57:45.276Z"
+  },
+  "linkedinNames": {
+    "total": 64,
+    "names": [
+      "Yashaswini S Achar",
+      "Tanmay Pathak",
+      "Darshana Sambare",
+      "Himanshu Srivastava",
+      "Raja selvam",
+      "Maninder Singh",
+      "Hitesh Bisht",
+      "Kiran Shanmuka",
+      "Yedu Dev",
+      "Vaibhav Berry",
+      "Praveen BK",
+      "Vishal Siwach",
+      "Leena AI",
+      "Madhusudhanan Krishnamoorthy",
+      "Gayathri Ganeshram",
+      "Nancy Sahu",
+      "Pooja Uttreja",
+      "Umamaheshwarrao Bolla",
+      "Ashutosh Bhagat",
+      "Harsha Reddy",
+      "Vinit Shahdeo",
+      "Sreeja Reddy Marri",
+      "Ubaid K.",
+      "Yogesh Joshi",
+      "Yash Garg",
+      "TEJ VAMSI JAKKA",
+      "Vineeth Unnikrishnan",
+      "Ritapa Datta",
+      "Haran Ravindran",
+      "SAI KRISHNA PENDURTHI",
+      "Nandish Aivalli",
+      "Snigdha Verma",
+      "Chaikesh Chouragade",
+      "Dhruv Nanda",
+      "Kriti Dadheech",
+      "Saumya Singh",
+      "V V Santosh Manikanta Prasad",
+      "Monisha Raju",
+      "Daniel Prince A",
+      "Mridul Sharma",
+      "Muhsina Ravoof V A",
+      "Shaminder Singh",
+      "Dhruv Chavda",
+      "Arron Dsilva",
+      "Kunal Damani",
+      "Prabhu Mayilsamy",
+      "Anuj Bhargava",
+      "Sudhish Mishra",
+      "Manvir Singh",
+      "Sri Harsha Kotha",
+      "Harshit Sharma",
+      "Jagdish Parihar",
+      "Aryan Deshpande",
+      "CA Tarjani Anjaria",
+      "Rahul Katare",
+      "Jaya Palewar",
+      "Komal Kapoor",
+      "Himani Ramchandani",
+      "Amit Shukla",
+      "Prachi Gupta",
+      "Assaf Zeevi",
+      "Donna Marie Flores",
+      "Christina Chen",
+      "Illan Poreh"
+    ]
+  },
+  "emailResults": {
+    "totalProcessed": 64,
+    "emailsFound": 0,
+    "successRate": "0.0",
+    "details": [
+      {
+        "name": "Yashaswini S Achar",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:50:40.459Z"
+      },
+      {
+        "name": "Tanmay Pathak",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:50:40.460Z"
+      },
+      {
+        "name": "Darshana Sambare",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:50:54.590Z"
+      },
+      {
+        "name": "Himanshu Srivastava",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:50:54.590Z"
+      },
+      {
+        "name": "Raja selvam",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:51:09.863Z"
+      },
+      {
+        "name": "Maninder Singh",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:51:09.863Z"
+      },
+      {
+        "name": "Hitesh Bisht",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:51:24.339Z"
+      },
+      {
+        "name": "Kiran Shanmuka",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:51:24.340Z"
+      },
+      {
+        "name": "Yedu Dev",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:51:37.507Z"
+      },
+      {
+        "name": "Vaibhav Berry",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:51:37.507Z"
+      },
+      {
+        "name": "Praveen BK",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:51:51.178Z"
+      },
+      {
+        "name": "Vishal Siwach",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:51:51.179Z"
+      },
+      {
+        "name": "Leena AI",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:06.021Z"
+      },
+      {
+        "name": "Madhusudhanan Krishnamoorthy",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:06.021Z"
+      },
+      {
+        "name": "Gayathri Ganeshram",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:20.766Z"
+      },
+      {
+        "name": "Nancy Sahu",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:20.766Z"
+      },
+      {
+        "name": "Pooja Uttreja",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:29.634Z"
+      },
+      {
+        "name": "Umamaheshwarrao Bolla",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:29.635Z"
+      },
+      {
+        "name": "Ashutosh Bhagat",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:43.505Z"
+      },
+      {
+        "name": "Harsha Reddy",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:43.505Z"
+      },
+      {
+        "name": "Vinit Shahdeo",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:52.773Z"
+      },
+      {
+        "name": "Sreeja Reddy Marri",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:52:52.774Z"
+      },
+      {
+        "name": "Ubaid K.",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:53:08.396Z"
+      },
+      {
+        "name": "Yogesh Joshi",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:53:08.396Z"
+      },
+      {
+        "name": "Yash Garg",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:53:25.090Z"
+      },
+      {
+        "name": "TEJ VAMSI JAKKA",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:53:25.091Z"
+      },
+      {
+        "name": "Vineeth Unnikrishnan",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:53:40.792Z"
+      },
+      {
+        "name": "Ritapa Datta",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:53:40.792Z"
+      },
+      {
+        "name": "Haran Ravindran",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:53:54.661Z"
+      },
+      {
+        "name": "SAI KRISHNA PENDURTHI",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:53:54.661Z"
+      },
+      {
+        "name": "Nandish Aivalli",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:54:08.922Z"
+      },
+      {
+        "name": "Snigdha Verma",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:54:08.922Z"
+      },
+      {
+        "name": "Chaikesh Chouragade",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:54:22.617Z"
+      },
+      {
+        "name": "Dhruv Nanda",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:54:22.618Z"
+      },
+      {
+        "name": "Kriti Dadheech",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:54:36.517Z"
+      },
+      {
+        "name": "Saumya Singh",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:54:36.517Z"
+      },
+      {
+        "name": "V V Santosh Manikanta Prasad",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:54:50.861Z"
+      },
+      {
+        "name": "Monisha Raju",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:54:50.861Z"
+      },
+      {
+        "name": "Daniel Prince A",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:05.103Z"
+      },
+      {
+        "name": "Mridul Sharma",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:05.104Z"
+      },
+      {
+        "name": "Muhsina Ravoof V A",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:18.575Z"
+      },
+      {
+        "name": "Shaminder Singh",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:18.576Z"
+      },
+      {
+        "name": "Dhruv Chavda",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:32.284Z"
+      },
+      {
+        "name": "Arron Dsilva",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:32.284Z"
+      },
+      {
+        "name": "Kunal Damani",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:46.010Z"
+      },
+      {
+        "name": "Prabhu Mayilsamy",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:46.010Z"
+      },
+      {
+        "name": "Anuj Bhargava",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:55.586Z"
+      },
+      {
+        "name": "Sudhish Mishra",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:55:55.586Z"
+      },
+      {
+        "name": "Manvir Singh",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:56:09.213Z"
+      },
+      {
+        "name": "Sri Harsha Kotha",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:56:09.213Z"
+      },
+      {
+        "name": "Harshit Sharma",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:56:23.732Z"
+      },
+      {
+        "name": "Jagdish Parihar",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:56:23.732Z"
+      },
+      {
+        "name": "Aryan Deshpande",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:56:34.198Z"
+      },
+      {
+        "name": "CA Tarjani Anjaria",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:56:34.199Z"
+      },
+      {
+        "name": "Rahul Katare",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:56:48.480Z"
+      },
+      {
+        "name": "Jaya Palewar",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:56:48.481Z"
+      },
+      {
+        "name": "Komal Kapoor",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:57:02.940Z"
+      },
+      {
+        "name": "Himani Ramchandani",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:57:02.941Z"
+      },
+      {
+        "name": "Amit Shukla",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:57:17.200Z"
+      },
+      {
+        "name": "Prachi Gupta",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:57:17.200Z"
+      },
+      {
+        "name": "Assaf Zeevi",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:57:31.004Z"
+      },
+      {
+        "name": "Donna Marie Flores",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:57:31.005Z"
+      },
+      {
+        "name": "Christina Chen",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:57:45.275Z"
+      },
+      {
+        "name": "Illan Poreh",
+        "email": null,
+        "domain": "https://zzazz.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T12:57:45.275Z"
+      }
+    ]
+  },
+  "combined": [
+    {
+      "name": "Yashaswini S Achar",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Tanmay Pathak",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Darshana Sambare",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Himanshu Srivastava",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Raja selvam",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Maninder Singh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Hitesh Bisht",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kiran Shanmuka",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Yedu Dev",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vaibhav Berry",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Praveen BK",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vishal Siwach",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Leena AI",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Madhusudhanan Krishnamoorthy",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Gayathri Ganeshram",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Nancy Sahu",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Pooja Uttreja",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Umamaheshwarrao Bolla",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ashutosh Bhagat",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Harsha Reddy",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vinit Shahdeo",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sreeja Reddy Marri",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ubaid K.",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Yogesh Joshi",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Yash Garg",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "TEJ VAMSI JAKKA",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vineeth Unnikrishnan",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ritapa Datta",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Haran Ravindran",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "SAI KRISHNA PENDURTHI",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Nandish Aivalli",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Snigdha Verma",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Chaikesh Chouragade",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Dhruv Nanda",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kriti Dadheech",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Saumya Singh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "V V Santosh Manikanta Prasad",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Monisha Raju",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Daniel Prince A",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Mridul Sharma",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Muhsina Ravoof V A",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Shaminder Singh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Dhruv Chavda",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Arron Dsilva",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kunal Damani",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Prabhu Mayilsamy",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Anuj Bhargava",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sudhish Mishra",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Manvir Singh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sri Harsha Kotha",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Harshit Sharma",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Jagdish Parihar",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Aryan Deshpande",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "CA Tarjani Anjaria",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Rahul Katare",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Jaya Palewar",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Komal Kapoor",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Himani Ramchandani",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Amit Shukla",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Prachi Gupta",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Assaf Zeevi",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Donna Marie Flores",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Christina Chen",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Illan Poreh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    }
+  ]
+}

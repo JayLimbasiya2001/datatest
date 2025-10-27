@@ -1,0 +1,656 @@
+{
+  "company": "Brainwave Science",
+  "domain": "https://www.brainwavescience.com/",
+  "scrapedAt": "2025-10-26T05:12:04.264Z",
+  "timing": {
+    "totalProcessingTime": 0,
+    "linkedinScrapingTime": 206232,
+    "emailFindingTime": 286574,
+    "resultsSavingTime": 0,
+    "workflowStartTime": "2025-10-26T05:12:04.264Z"
+  },
+  "linkedinNames": {
+    "total": 45,
+    "names": [
+      "Divya Sri",
+      "Saksham Kumar",
+      "ARKAPRAVA BISWAS",
+      "Gangadhar Vasa",
+      "Vinay Gupta Kurusetti",
+      "Kritika Gujral",
+      "Rasheed S.",
+      "Leela Chaitanya Yerramsetti",
+      "Ayush Mittal",
+      "Shankramma Basarakod",
+      "Mamta Sinha",
+      "Monika Asundi",
+      "nirvanaHealth RxAdvance",
+      "Samansthita works here",
+      "Gyanendra Chaubey",
+      "Sambit Saha",
+      "Shreya Chopra",
+      "Chandana S",
+      "Ayushi Mishra",
+      "Akshitha Reddy",
+      "Yuvraj Kesar",
+      "Madhu Soni",
+      "Bhanushri Chinta",
+      "Krishna Ika",
+      "MUKESH KUMAR",
+      "M T AHMAD",
+      "Aravelli ..",
+      "Sweksha Dixit",
+      "Roopa Mahesh",
+      "Jasmine Kaur",
+      "Raj veerian",
+      "Tamasree Ray Chaudhuri",
+      "Aditya Verma",
+      "Reetika Goswami",
+      "Kote Gotiashvili",
+      "Peeyush Kumar Jaiswal",
+      "Harold Kassa",
+      "Anri Kuparadze",
+      "Ashish Singhal",
+      "Nata Sulakvelidze",
+      "Santosh Kottamasu",
+      "Elene Aptsiauri",
+      "Aman Chopra",
+      "Matthew Adams",
+      "Srini Pillay, M.D."
+    ]
+  },
+  "emailResults": {
+    "totalProcessed": 45,
+    "emailsFound": 7,
+    "successRate": "15.6",
+    "details": [
+      {
+        "name": "Divya Sri",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:07:32.389Z"
+      },
+      {
+        "name": "Saksham Kumar",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:07:32.390Z"
+      },
+      {
+        "name": "ARKAPRAVA BISWAS",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:07:32.390Z"
+      },
+      {
+        "name": "Gangadhar Vasa",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:07:32.390Z"
+      },
+      {
+        "name": "Vinay Gupta Kurusetti",
+        "email": "vgupta@brainwavescience.com",
+        "domain": "https://www.brainwavescience.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T05:07:32.390Z"
+      },
+      {
+        "name": "Kritika Gujral",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:02.477Z"
+      },
+      {
+        "name": "Rasheed S.",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:02.477Z"
+      },
+      {
+        "name": "Leela Chaitanya Yerramsetti",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:02.477Z"
+      },
+      {
+        "name": "Ayush Mittal",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:02.478Z"
+      },
+      {
+        "name": "Shankramma Basarakod",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:02.478Z"
+      },
+      {
+        "name": "Mamta Sinha",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:32.424Z"
+      },
+      {
+        "name": "Monika Asundi",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:32.425Z"
+      },
+      {
+        "name": "nirvanaHealth RxAdvance",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:32.425Z"
+      },
+      {
+        "name": "Samansthita works here",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:32.425Z"
+      },
+      {
+        "name": "Gyanendra Chaubey",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:08:32.425Z"
+      },
+      {
+        "name": "Sambit Saha",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:09:03.163Z"
+      },
+      {
+        "name": "Shreya Chopra",
+        "email": "schopra@brainwavescience.com",
+        "domain": "https://www.brainwavescience.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T05:09:03.163Z"
+      },
+      {
+        "name": "Chandana S",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:09:03.164Z"
+      },
+      {
+        "name": "Ayushi Mishra",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:09:03.164Z"
+      },
+      {
+        "name": "Akshitha Reddy",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:09:03.164Z"
+      },
+      {
+        "name": "Yuvraj Kesar",
+        "email": "ykesar@brainwavescience.com",
+        "domain": "https://www.brainwavescience.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T05:09:32.606Z"
+      },
+      {
+        "name": "Madhu Soni",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:09:32.607Z"
+      },
+      {
+        "name": "Bhanushri Chinta",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:09:32.607Z"
+      },
+      {
+        "name": "Krishna Ika",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:09:32.607Z"
+      },
+      {
+        "name": "MUKESH KUMAR",
+        "email": "mkumar@brainwavescience.com",
+        "domain": "https://www.brainwavescience.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T05:09:32.607Z"
+      },
+      {
+        "name": "M T AHMAD",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:03.187Z"
+      },
+      {
+        "name": "Aravelli ..",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:03.187Z"
+      },
+      {
+        "name": "Sweksha Dixit",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:03.187Z"
+      },
+      {
+        "name": "Roopa Mahesh",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:03.188Z"
+      },
+      {
+        "name": "Jasmine Kaur",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:03.188Z"
+      },
+      {
+        "name": "Raj veerian",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:31.397Z"
+      },
+      {
+        "name": "Tamasree Ray Chaudhuri",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:31.397Z"
+      },
+      {
+        "name": "Aditya Verma",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:31.397Z"
+      },
+      {
+        "name": "Reetika Goswami",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:31.397Z"
+      },
+      {
+        "name": "Kote Gotiashvili",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:10:31.397Z"
+      },
+      {
+        "name": "Peeyush Kumar Jaiswal",
+        "email": "pjaiswal@brainwavescience.com",
+        "domain": "https://www.brainwavescience.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T05:11:31.909Z"
+      },
+      {
+        "name": "Harold Kassa",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:11:31.909Z"
+      },
+      {
+        "name": "Anri Kuparadze",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:11:31.909Z"
+      },
+      {
+        "name": "Ashish Singhal",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:11:31.909Z"
+      },
+      {
+        "name": "Nata Sulakvelidze",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:11:31.909Z"
+      },
+      {
+        "name": "Santosh Kottamasu",
+        "email": "skottamasu@brainwavescience.com",
+        "domain": "https://www.brainwavescience.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T05:12:04.263Z"
+      },
+      {
+        "name": "Elene Aptsiauri",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:12:04.263Z"
+      },
+      {
+        "name": "Aman Chopra",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:12:04.263Z"
+      },
+      {
+        "name": "Matthew Adams",
+        "email": "madams@brainwavescience.com",
+        "domain": "https://www.brainwavescience.com/",
+        "status": "found",
+        "timestamp": "2025-10-26T05:12:04.263Z"
+      },
+      {
+        "name": "Srini Pillay, M.D.",
+        "email": null,
+        "domain": "https://www.brainwavescience.com/",
+        "status": "not_found",
+        "timestamp": "2025-10-26T05:12:04.264Z"
+      }
+    ]
+  },
+  "combined": [
+    {
+      "name": "Divya Sri",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Saksham Kumar",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "ARKAPRAVA BISWAS",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Gangadhar Vasa",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Vinay Gupta Kurusetti",
+      "email": "vgupta@brainwavescience.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kritika Gujral",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Rasheed S.",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Leela Chaitanya Yerramsetti",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ayush Mittal",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Shankramma Basarakod",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Mamta Sinha",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Monika Asundi",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "nirvanaHealth RxAdvance",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Samansthita works here",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Gyanendra Chaubey",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sambit Saha",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Shreya Chopra",
+      "email": "schopra@brainwavescience.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Chandana S",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ayushi Mishra",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Akshitha Reddy",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Yuvraj Kesar",
+      "email": "ykesar@brainwavescience.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Madhu Soni",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Bhanushri Chinta",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Krishna Ika",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "MUKESH KUMAR",
+      "email": "mkumar@brainwavescience.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "M T AHMAD",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Aravelli ..",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Sweksha Dixit",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Roopa Mahesh",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Jasmine Kaur",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Raj veerian",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Tamasree Ray Chaudhuri",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Aditya Verma",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Reetika Goswami",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Kote Gotiashvili",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Peeyush Kumar Jaiswal",
+      "email": "pjaiswal@brainwavescience.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Harold Kassa",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Anri Kuparadze",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Ashish Singhal",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Nata Sulakvelidze",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Santosh Kottamasu",
+      "email": "skottamasu@brainwavescience.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Elene Aptsiauri",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Aman Chopra",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Matthew Adams",
+      "email": "madams@brainwavescience.com",
+      "status": "found",
+      "source": "LinkedIn + Email Finder"
+    },
+    {
+      "name": "Srini Pillay, M.D.",
+      "email": null,
+      "status": "not_found",
+      "source": "LinkedIn + Email Finder"
+    }
+  ]
+}

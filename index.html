@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Email Scraper</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0077b5, #00a0dc);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .form-container {
+            padding: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #0077b5;
+            box-shadow: 0 0 0 3px rgba(0,119,181,0.1);
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #0077b5, #00a0dc);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,119,181,0.3);
+        }
+
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .progress-container {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #0077b5;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e1e5e9;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #0077b5, #00a0dc);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .status {
+            font-weight: 600;
+            color: #0077b5;
+            margin-bottom: 10px;
+        }
+
+        .log {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .log-line {
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+
+        .results {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0fff4;
+            border-radius: 10px;
+            border-left: 4px solid #38a169;
+        }
+
+        .results h3 {
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #0077b5;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #718096;
+        }
+
+        .download-btn {
+            background: #38a169;
+            margin-top: 10px;
+        }
+
+        .download-btn:hover {
+            box-shadow: 0 10px 20px rgba(56,161,105,0.3);
+        }
+
+        .error {
+            color: #e53e3e;
+            background: #fed7d7;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+            }
+            
+            .form-container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 LinkedIn Email Scraper</h1>
+            <p>Extract employee names from LinkedIn and find their emails automatically</p>
+        </div>
+
+        <div class="form-container">
+            <form id="scraperForm">
+                <div class="form-group">
+                    <label for="companyName">🏢 Company Name</label>
+                    <input type="text" id="companyName" placeholder="Enter company name (e.g., Capco)" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="website">🌐 Company Website</label>
+                    <input type="url" id="website" placeholder="Enter company website (e.g., https://www.capco.com/)" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="maxNames">📊 Number of Names to Find</label>
+                    <input type="number" id="maxNames" placeholder="Enter number of names (e.g., 200)" min="1" max="1000" value="100" required>
+                </div>
+
+                <button type="submit" class="btn" id="startBtn">
+                    🚀 Start Scraping Process
+                </button>
+            </form>
+
+            <div class="error" id="errorMessage"></div>
+
+            <div class="progress-container" id="progressContainer">
+                <div class="status" id="currentStatus">Initializing...</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="log" id="logContainer"></div>
+            </div>
+
+            <div class="results" id="resultsContainer">
+                <h3>✅ Scraping Complete!</h3>
+                <div class="stats" id="statsContainer">
+                    <!-- Stats will be populated here -->
+                </div>
+                <button class="btn download-btn" id="downloadBtn">📥 Download Results</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('scraperForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const companyName = document.getElementById('companyName').value;
+            const website = document.getElementById('website').value;
+            const maxNames = document.getElementById('maxNames').value;
+            const startBtn = document.getElementById('startBtn');
+            const progressContainer = document.getElementById('progressContainer');
+            const logContainer = document.getElementById('logContainer');
+            const resultsContainer = document.getElementById('resultsContainer');
+            const errorMessage = document.getElementById('errorMessage');
+            
+            // Reset UI
+            errorMessage.style.display = 'none';
+            resultsContainer.style.display = 'none';
+            progressContainer.style.display = 'block';
+            logContainer.style.display = 'block';
+            startBtn.disabled = true;
+            startBtn.textContent = 'Processing...';
+            
+            // Clear previous logs
+            logContainer.innerHTML = '';
+            
+            try {
+                const response = await fetch('/scrape', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        companyName,
+                        website,
+                        maxNames: parseInt(maxNames)
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Server error: ' + response.statusText);
+                }
+                
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    
+                    const chunk = decoder.decode(value);
+                    const lines = chunk.split('\n');
+                    
+                    for (const line of lines) {
+                        if (line.trim() === '') continue;
+                        
+                        try {
+                            const data = JSON.parse(line);
+                            
+                            if (data.type === 'log') {
+                                addLog(data.message, data.timestamp);
+                            } else if (data.type === 'progress') {
+                                updateProgress(data.percentage, data.stage);
+                            } else if (data.type === 'complete') {
+                                showResults(data.results);
+                                startBtn.disabled = false;
+                                startBtn.textContent = '🚀 Start Scraping Process';
+                            } else if (data.type === 'error') {
+                                throw new Error(data.message);
+                            }
+                        } catch (e) {
+                            console.log('Raw message:', line);
+                        }
+                    }
+                }
+                
+            } catch (error) {
+                showError(error.message);
+                startBtn.disabled = false;
+                startBtn.textContent = '🚀 Start Scraping Process';
+            }
+        });
+        
+        function addLog(message, timestamp) {
+            const logContainer = document.getElementById('logContainer');
+            const logLine = document.createElement('div');
+            logLine.className = 'log-line';
+            logLine.innerHTML = `<span style="color: #a0aec0">[${timestamp}]</span> ${message}`;
+            logContainer.appendChild(logLine);
+            logContainer.scrollTop = logContainer.scrollHeight;
+        }
+        
+        function updateProgress(percentage, stage) {
+            const progressFill = document.getElementById('progressFill');
+            const currentStatus = document.getElementById('currentStatus');
+            
+            progressFill.style.width = percentage + '%';
+            currentStatus.textContent = stage;
+        }
+        
+        function showResults(results) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            const statsContainer = document.getElementById('statsContainer');
+            const downloadBtn = document.getElementById('downloadBtn');
+            
+            statsContainer.innerHTML = `
+                <div class="stat-card">
+                    <span class="stat-number">${results.linkedinNames}</span>
+                    <span class="stat-label">Names Found</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">${results.emailsFound}</span>
+                    <span class="stat-label">Emails Found</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">${results.successRate}%</span>
+                    <span class="stat-label">Success Rate</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">${results.processingTime}s</span>
+                    <span class="stat-label">Total Time</span>
+                </div>
+            `;
+            
+            // Store results for download
+            downloadBtn.onclick = () => {
+                const blob = new Blob([JSON.stringify(results.fullResults, null, 2)], 
+                    { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `scraping_results_${results.company}_${Date.now()}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            };
+            
+            resultsContainer.style.display = 'block';
+        }
+        
+        function showError(message) {
+            const errorMessage = document.getElementById('errorMessage');
+            errorMessage.textContent = 'Error: ' + message;
+            errorMessage.style.display = 'block';
+            addLog(`❌ Error: ${message}`, new Date().toLocaleTimeString());
+        }
+    </script>
+</body>
+</html>
