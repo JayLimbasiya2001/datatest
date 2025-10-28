@@ -1,4 +1,5 @@
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-core");
+const chromium = require("@sparticuz/chromium");
 const fs = require("fs");
 
 class LinkedInEmailScraper {
@@ -18,13 +19,40 @@ class LinkedInEmailScraper {
   }
 
   /**
+   * Launch browser for Vercel environment
+   */
+  async launchBrowser() {
+    // Configure Chromium for serverless
+    chromium.setGraphicsMode(false);
+    
+    const browser = await puppeteer.launch({
+      args: [
+        ...chromium.args,
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-accelerated-2d-canvas",
+        "--no-first-run",
+        "--no-zygote",
+        "--single-process",
+        "--disable-gpu",
+        "--hide-scrollbars",
+        "--disable-web-security"
+      ],
+      defaultViewport: chromium.defaultViewport,
+      executablePath: await chromium.executablePath(),
+      headless: chromium.headless,
+      ignoreHTTPSErrors: true,
+    });
+
+    return browser;
+  }
+
+  /**
    * Main function to get people names and their emails
    */
   async getPeopleAndEmailsFromCompany(companyName, domain, maxNames = 500) {
     const workflowStartTime = Date.now();
-
-    let browser;
-    let page;
 
     try {
       console.log(`🚀 STARTING COMPLETE WORKFLOW`);
@@ -44,7 +72,7 @@ class LinkedInEmailScraper {
 
       if (linkedinNames.length === 0) {
         console.log("❌ No names found from LinkedIn. Exiting...");
-        return;
+        return { linkedinNames: [], emailResults: { detailedResults: [], emailArray: [] } };
       }
 
       // Step 2: Find emails for the names
@@ -67,10 +95,13 @@ class LinkedInEmailScraper {
       // Calculate total time
       this.totalProcessingTime = Date.now() - workflowStartTime;
 
+      // Display summary
+      this.displayFinalSummary(linkedinNames, emailResults, companyName, domain);
+
       return { linkedinNames, emailResults };
     } catch (error) {
       console.error("Error in complete workflow:", error);
-      return { linkedinNames: [], emailResults: [] };
+      return { linkedinNames: [], emailResults: { detailedResults: [], emailArray: [] } };
     }
   }
 
@@ -157,16 +188,7 @@ class LinkedInEmailScraper {
     let page;
 
     try {
-      browser = await puppeteer.launch({
-        headless: true,
-        args: [
-          "--no-sandbox",
-          "--disable-setuid-sandbox",
-          "--disable-blink-features=AutomationControlled",
-          "--window-size=1200,800",
-        ],
-      });
-
+      browser = await this.launchBrowser();
       page = await browser.newPage();
       await this.setEmailFinderStealthMode(page);
 
@@ -186,7 +208,6 @@ class LinkedInEmailScraper {
       const email = await this.waitForActualEmail(page, name);
 
       await browser.close();
-
       return email;
     } catch (error) {
       console.error(`Error searching for ${name}:`, error.message);
@@ -458,17 +479,7 @@ class LinkedInEmailScraper {
       console.log(`🔍 Searching for people at: ${companyName}`);
       console.log(`📊 Target: ${maxNames} names\n`);
 
-      browser = await puppeteer.launch({
-        headless: true,
-        args: [
-          "--no-sandbox",
-          "--disable-setuid-sandbox",
-          "--disable-blink-features=AutomationControlled",
-          "--window-size=1400,1000",
-          "--disable-features=VizDisplayCompositor",
-        ],
-      });
-
+      browser = await this.launchBrowser();
       page = await browser.newPage();
       await this.setStealthMode(page);
 
@@ -1267,7 +1278,41 @@ class LinkedInEmailScraper {
   }
 }
 
-// Main execution function
+// For Vercel serverless function compatibility
+module.exports = LinkedInEmailScraper;
+
+module.exports.handler = async (req, res) => {
+  const scraper = new LinkedInEmailScraper();
+  
+  try {
+    const { companyName, domain, maxNames = 50 } = req.body || req.query;
+    
+    if (!companyName || !domain) {
+      return res.status(400).json({
+        error: "Company name and domain are required"
+      });
+    }
+
+    const results = await scraper.getPeopleAndEmailsFromCompany(
+      companyName, 
+      domain, 
+      parseInt(maxNames)
+    );
+
+    res.status(200).json({
+      success: true,
+      data: results
+    });
+  } catch (error) {
+    console.error("Handler error:", error);
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+};
+
+// Main execution function for local testing
 async function main() {
   const scraper = new LinkedInEmailScraper();
 
@@ -1295,13 +1340,6 @@ async function main() {
     const totalScriptTime = (endTime - startTime) / 1000;
 
     if (results && results.linkedinNames && results.emailResults) {
-      scraper.displayFinalSummary(
-        results.linkedinNames,
-        results.emailResults,
-        companyName,
-        domain
-      );
-
       console.log(
         `\n⏱️ Total script execution time: ${totalScriptTime.toFixed(
           2
@@ -1316,9 +1354,6 @@ async function main() {
     process.exit(1);
   }
 }
-
-// Export the class
-module.exports = LinkedInEmailScraper;
 
 // Run if executed directly
 if (require.main === module) {
